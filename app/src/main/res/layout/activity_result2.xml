@@ -10,14 +10,30 @@ android:layout_margin="16dp"
     tools:context=".ResultActivity2">
 
     <TextView
+
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/purple_500"
+        android:padding="16dp"
+        android:text="Seu imc é: "
+        android:textSize="22sp" />
+
+
+
+
+
+
+    <TextView
         android:id="@+id/textview_result"
         android:layout_width="match_parent"
         android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/purple_500"
         android:padding="16dp"
-        tools:text="Seu IMC é :"
+        android:text="SEU IMC É: "
         android:textSize="22sp" />
     
     
@@ -26,7 +42,7 @@ android:layout_margin="16dp"
         tools:text="Classificação: Normal"
         android:layout_margin="5dp"
         android:textSize="25sp"
-        android:textColor="@color/black"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
